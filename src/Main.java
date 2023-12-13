@@ -1,7 +1,8 @@
 public class Main {
 
     public static void main(String[] args) {
-        Person person = new Person("Arseni", "Che");
-        System.out.println(person.info());
+        Employee employee = new Employee("Arseni", "Che", 100000);
+        System.out.println(employee.info());
+        System.out.println(employee.salary);
     }
 }
